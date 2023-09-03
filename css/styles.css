@@ -1,0 +1,56 @@
+:root {
+	--title-color: #212121;
+	--subtitle-color: #757575;
+	--active-color: #2196F3;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	color: var(--title-color);
+}
+
+.logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	letter-spacing: 3%;
+	text-decoration: none;
+}
+
+.logo .logo-header {
+	color: #000;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu .menu-item {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+
+}
+
+.active {
+	color: var(--active-color);
+}
+
+.menu-item:hover {
+	color: var(--active-color);
+}
+
+.contacts li {
+	list-style: none;
+}
+
+.contacts li a {
+	text-decoration: none;
+	color: var(--subtitle-color);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.contacts li a:hover {
+	color: var(--active-color);
+}
