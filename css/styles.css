@@ -2,6 +2,7 @@
 	--title-color: #212121;
 	--subtitle-color: #757575;
 	--active-color: #2196F3;
+	--background-footer: #2F303A;
 }
 
 body {
@@ -53,4 +54,34 @@ body {
 
 .contacts li a:hover {
 	color: var(--active-color);
+}
+
+footer {
+	background-color: var(--background-footer);
+	color: #fff;
+
+}
+
+.logo-footer {
+	color: #fff
+}
+
+address {
+	font-size: 14px;
+	font-style: normal;
+}
+
+address ul li {
+	list-style: none;
+}
+
+address ul li a {
+	text-decoration: none;
+	/* color: rgba(255, 255, 255, 0.6); */
+	opacity: .6;
+	color: #fff
+}
+
+address ul li a:hover {
+	opacity: 1;
 }
