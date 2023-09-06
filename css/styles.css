@@ -14,7 +14,7 @@
 
 body {
 	font-family: Roboto, sans-serif;
-	color: var(--title-color);
+	color: var(--subtitle-color);
 
 }
 
@@ -50,7 +50,8 @@ body {
 	color: var(--active-color);
 }
 
-.menu-item:hover {
+.menu-item:hover,
+.menu-item:focus {
 	color: var(--active-color);
 }
 
@@ -60,12 +61,13 @@ body {
 
 .contacts li a {
 	text-decoration: none;
-	color: var(--subtitle-color);
+	color: currentColor;
 	font-weight: 500;
 	font-size: 14px;
 }
 
-.contacts li a:hover {
+.contacts li a:hover,
+.contacts li a:focus {
 	color: var(--active-color);
 }
 
@@ -115,7 +117,6 @@ body {
 
 .features-text {
 	font-size: 14px;
-	color: var(--subtitle-color);
 	line-height: 2;
 }
 
@@ -149,7 +150,7 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.team-items {}
+/* .team-items {} */
 
 .team-item {
 	list-style: none;
@@ -158,13 +159,13 @@ body {
 }
 
 .team-item-title {
+	color: var(--title-color);
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.03em;
 }
 
 .team-item-text {
-	color: var(--subtitle-color);
 	letter-spacing: 0.03em;
 }
 
@@ -197,6 +198,45 @@ address ul li a {
 	color: #fff
 }
 
-address ul li a:hover {
+address ul li a:hover,
+address ul li a:focus {
 	opacity: 1;
 }
+
+
+/* PORTFOLIO */
+.portfolio {}
+
+.buttons {}
+
+.btn {}
+
+.btn button {
+	padding: 6px 22px;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	border: none;
+	border-radius: 4px;
+	letter-spacing: 0.03em;
+	font-weight: 500;
+	background-color: var(--background-team);
+	color: var(--title-color);
+}
+
+.btn-active button {
+	background-color: var(--active-color);
+	color: #fff;
+
+}
+
+.btn button:hover,
+.btn button:focus {
+	background-color: var(--active-color);
+	color: #fff;
+}
+
+.cards {}
+
+.card {}
+
+.card-title {}
