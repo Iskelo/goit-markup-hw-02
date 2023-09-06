@@ -244,7 +244,11 @@ address ul li a:focus {
 	color: #fff;
 }
 
-.cards {}
+.cards {
+	margin-top: 10px;
+	list-style: none;
+	/* display: flex; */
+}
 
 .card {
 	width: 370px;
