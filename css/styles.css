@@ -18,6 +18,9 @@ body {
 }
 
 /* HEADER */
+.header {
+	letter-spacing: 0.02em;
+}
 
 .logo {
 	font-family: Raleway;
@@ -87,6 +90,28 @@ body {
 	font-size: 16px;
 	padding: 10px 32px;
 	font-weight: 700;
+}
+
+/* FEATURES */
+
+.features {}
+
+.features-items {}
+
+.features-item {
+	width: 270px;
+
+}
+
+.features-title {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.features-text {
+	font-size: 14px;
+	color: var(--subtitle-color);
+	line-height: 2;
 }
 
 
