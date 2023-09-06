@@ -10,6 +10,8 @@ body {
 	color: var(--title-color);
 }
 
+/* HEADER */
+
 .logo {
 	font-family: Raleway;
 	font-weight: 700;
@@ -55,6 +57,12 @@ body {
 .contacts li a:hover {
 	color: var(--active-color);
 }
+
+/* HERO */
+
+
+
+/* FOOTER */
 
 footer {
 	background-color: var(--background-footer);
