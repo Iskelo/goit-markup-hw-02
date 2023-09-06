@@ -73,6 +73,7 @@ body {
 	background-color: var(--background-footer);
 	width: 100vw;
 	height: 600px;
+	letter-spacing: 0.06em;
 }
 
 .hero-title {
@@ -96,11 +97,12 @@ body {
 
 .features {}
 
-.features-items {}
+.features-items {
+	letter-spacing: 0.03em;
+}
 
 .features-item {
 	width: 270px;
-
 }
 
 .features-title {
