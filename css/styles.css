@@ -87,6 +87,7 @@ body {
 }
 
 .hero-btn {
+	cursor: pointer;
 	color: #fff;
 	background-color: var(--active-color);
 	border: none;
