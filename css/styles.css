@@ -9,6 +9,7 @@
 body {
 	font-family: Roboto, sans-serif;
 	color: var(--subtitle-color);
+	line-height: 24px;
 }
 
 /* HEADER */
@@ -22,10 +23,16 @@ body {
 	font-size: 26px;
 	letter-spacing: 3%;
 	text-decoration: none;
+	color: var(--active-color);
 }
 
 .logo .logo-header {
 	color: #000;
+}
+
+a {
+	color: var(--title-color);
+	text-decoration: none;
 }
 
 .menu li {
@@ -75,6 +82,7 @@ body {
 	text-transform: uppercase;
 	font-size: 44px;
 	font-weight: 900;
+	line-height: 60px;
 }
 
 .hero-btn {
@@ -224,4 +232,5 @@ address ul li a:focus {
 
 .card-text {
 	letter-spacing: .03em;
+	color: var(--subtitle-color);
 }
