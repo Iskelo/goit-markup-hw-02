@@ -9,7 +9,6 @@
 body {
 	font-family: Roboto, sans-serif;
 	color: var(--subtitle-color);
-	line-height: 24px;
 }
 
 /* HEADER */
@@ -82,7 +81,7 @@ a {
 	text-transform: uppercase;
 	font-size: 44px;
 	font-weight: 900;
-	line-height: 60px;
+	line-height: 1.36;
 }
 
 .hero-btn {
@@ -111,7 +110,7 @@ a {
 
 .features-text {
 	font-size: 14px;
-	line-height: 2;
+	line-height: 1.71;
 }
 
 /* ABOUT */
@@ -144,6 +143,7 @@ a {
 
 .team-item {
 	list-style: none;
+	line-height: 24px;
 }
 
 .team-item-title {
@@ -228,9 +228,11 @@ address ul li a:focus {
 	color: var(--title-color);
 	font-size: 18px;
 	letter-spacing: .06em;
+	line-height: 2;
 }
 
 .card-text {
 	letter-spacing: .03em;
 	color: var(--subtitle-color);
+	line-height: 1.875;
 }
